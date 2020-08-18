@@ -4,7 +4,7 @@
 
 let example = [1, "dog", 3, "eight", 5, "car", 7, 8];
 
-const logStringsAndNumbers = function() {
+const logStringsAndNumbers = function(example) {
   for (let i = 0; i < example.length; i++) {
     if (typeof example[i] === "string") {
       console.log(example[i] + " " + "this is a string");
