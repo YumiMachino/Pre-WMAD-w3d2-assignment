@@ -1,12 +1,15 @@
-// Right a function that logs the third item in an array it is given. 
+// Right a function that logs the third item in an array it is given.
 // if there are less than three, log: "There is no third item"
 
-let example = [1, 2, 3, 4, 'five', 6, 7];
+let example = [1, 2, 3, 4, "five", 6, 7];
 
 let example2 = [1, 2];
 
-const logThird= function () {
-
+const logThird = function() {
+  console.log(example[2]);
+  if (example2.length < 3) {
+    console.log("There is no third item");
+  }
 };
 
 logThird(example);
