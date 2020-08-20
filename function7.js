@@ -5,4 +5,11 @@ const joinSentence = function(brokenSentence) {
   console.log(brokenSentence.join(" "));
 };
 
+// answer
+// const joinSentence = function (arr) {
+//   let sentence = arr.join(' ')
+//   console.log(sentence)
+
+// };
+
 joinSentence(brokenSentence);

@@ -6,4 +6,9 @@ const splitSentence = function(sentence) {
   console.log(sentence.split(" "));
 };
 
+// answer
+// const splitSentence = function (str) {
+//   console.log(str.split(' '))
+// };
+
 splitSentence(sentence);

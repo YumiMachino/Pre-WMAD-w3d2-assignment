@@ -5,12 +5,23 @@ let example = [1, 2, 3, 4, "five", 6, 7];
 
 let example2 = [1, 2];
 
-const logThird = function() {
+const logThird = function(example, example2) {
   console.log(example[2]);
   if (example2.length < 3) {
     console.log("There is no third item");
   }
 };
+
+//answer:
+// const logThird = function (arr) {
+//   if (arr.length >= 3) {
+
+//     console.log(arr[2])
+
+//   } else {
+//     console.log("There is no third item")
+//   }
+// };
 
 logThird(example);
 

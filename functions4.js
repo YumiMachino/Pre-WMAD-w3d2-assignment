@@ -14,6 +14,17 @@ const logStringsAndNumbers = function(example) {
   }
 };
 
+// answer
+// const logStringsAndNumbers = function (arr) {
+//   for (i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === "string") {
+//       console.log(arr[i] + ': This is a string')
+//     } else {
+//       console.log(arr[i]);
+//     }
+//   }
+// };
+
 logStringsAndNumbers(example);
 
 /*
